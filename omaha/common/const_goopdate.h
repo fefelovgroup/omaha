@@ -222,10 +222,10 @@ const TCHAR* const kRegValueDelayOmahaUninstall   = _T("DelayUninstall");
 const TCHAR* const kRegValueOmahaEulaAccepted     = _T("eulaaccepted");
 // TODO(omaha3): Consider renaming these if there is not a upgrade problem.
 // If we can't consider moving all "gupdate" values to the customization file.
-const TCHAR* const kRegValueServiceName           = _T("omaha_service_name");
-const TCHAR* const kRegValueMediumServiceName     = _T("omaham_service_name");
-const TCHAR* const kRegValueTaskNameC             = _T("omaha_task_name_c");
-const TCHAR* const kRegValueTaskNameUA            = _T("omaha_task_name_ua");
+const TCHAR* const kRegValueServiceName           = _T("mastery_service_name");
+const TCHAR* const kRegValueMediumServiceName     = _T("masterym_service_name");
+const TCHAR* const kRegValueTaskNameC             = _T("mastery_task_name_c");
+const TCHAR* const kRegValueTaskNameUA            = _T("mastery_task_name_ua");
 const TCHAR* const kRegValueLastStartedAU         = _T("LastStartedAU");
 const TCHAR* const kRegValueLastChecked           = _T("LastChecked");
 const TCHAR* const kRegValueLastCodeRedCheck      = _T("LastCodeRedCheck");
@@ -265,10 +265,10 @@ const TCHAR* const kRegValueDataLegacyUserId      = _T("; legacy");
 const TCHAR* const kHeaderValueNumUidRotation     = _T("cnt");
 const TCHAR* const kHeaderValueUidAge             = _T("age");
 
-// TODO(omaha3): Consider moving all "gupdate" values to the customization file.
+// TODO(mastery3): Consider moving all "gupdate" values to the customization file.
 // Use a non-gupdate name for the new medium service.
-const TCHAR* const kServicePrefix               = _T("omaha");
-const TCHAR* const kMediumServicePrefix         = _T("omaham");
+const TCHAR* const kServicePrefix               = _T("mastery");
+const TCHAR* const kMediumServicePrefix         = _T("masterym");
 
 const TCHAR* const kScheduledTaskNameUserPrefix =
     APP_NAME_IDENTIFIER _T("TaskUser");

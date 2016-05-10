@@ -65,19 +65,19 @@ _is_google_update_build = False
 # These values must be changed when customizing open source Omaha.
 # You may also wish to replace the language-neutral constants in the individual
 # *generated_resources_*.rc files with localized strings.
-_FULL_COMPANY_NAME = 'OmahaCompanyName Inc.'
-_SHORT_COMPANY_NAME = 'OmahaCompanyName'
+_FULL_COMPANY_NAME = 'Mastery Pro Inc.'
+_SHORT_COMPANY_NAME = 'MasteryPro'
 _PRODUCT_NAME = 'Update'
-_COMPANY_DOMAIN_BASE = 'google'
-_COMPANY_DOMAIN = _COMPANY_DOMAIN_BASE + '.com'
-_MAIN_EXE_BASE_NAME = 'GoogleUpdate'
+_COMPANY_DOMAIN_BASE = 'mastery'
+_COMPANY_DOMAIN = _COMPANY_DOMAIN_BASE + '.pro'
+_MAIN_EXE_BASE_NAME = 'MasteryUpdate'
 # TODO(omaha): Use this throughout the build files where goopdate and
 # goopdateres are referenced.
-_MAIN_DLL_BASE_NAME = 'goopdate'
+_MAIN_DLL_BASE_NAME = 'masteryupdate'
 # "Google Inc." must not be removed from the copyright string. This literal also
 # appears as LegalCopyright in the VERSIONINFO section of .rc files.
 # TODO(omaha): Use this variable in .wxs files, etc.
-_OMAHA_COPYRIGHT_STRING_ENGLISH = 'Copyright 2007-2010 Google Inc.'
+_OMAHA_COPYRIGHT_STRING_ENGLISH = 'Copyright 2016 Mastery Pro Inc.'
 
 
 # TODO(omaha): Allow open source Omaha to be built without the Recovery MSI,
