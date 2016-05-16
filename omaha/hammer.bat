@@ -30,18 +30,18 @@ set OMAHA_MSC_VER=1900
 goto set_env_variables
 
 :set_env_variables
-set GOROOT=%ProgramFiles(x86)%\go\files
-set OMAHA_ATL_SERVER_DIR=c:\atl_server\files
+set GOROOT=c:\go
+set OMAHA_ATL_SERVER_DIR=c:\distrib\atl
 set OMAHA_NET_DIR=%WINDIR%\Microsoft.NET\Framework\v2.0.50727
 set OMAHA_NETFX_TOOLS_DIR=%WindowsSDK_ExecutablePath_x86%
 set OMAHA_PYTHON_DIR=C:\Python24
-set OMAHA_WIX_DIR=%ProgramFiles(x86)%\WiX Toolset v3.8\bin
-set OMAHA_WTL_DIR=C:\wtl\files
+set OMAHA_WIX_DIR=c:\distrib\wix310-binaries
+set OMAHA_WTL_DIR=C:\distrib\wtl91
 set OMAHA_PLATFORM_SDK_DIR=%WindowsSdkDir%\
 set OMAHA_SIGNTOOL_SDK_DIR=%WindowsSdkDir%\bin\x86
 set PYTHONPATH=%OMAHA_PYTHON_DIR%
 set SCONS_DIR=C:\Python24\Lib\site-packages\scons-1.3.1
-set SCT_DIR=C:\swtoolkit
+set SCT_DIR=C:\distrib\swtoolkit.0.9.1
 
 set PROXY_CLSID_TARGET=%~dp0proxy_clsids.txt
 set CUSTOMIZATION_UT_TARGET=%~dp0common\omaha_customization_proxy_clsid.h
